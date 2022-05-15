@@ -55,3 +55,6 @@ locationDF['latitude'] = pd.DataFrame (latitude, columns = ['latitude'])
 locationDF['longitude'] = pd.DataFrame (latitude, columns = ['longitude'])
 
 locationDF.to_excel("locationDF.xlsx")
+
+locationDF=locationDF[['City','latitude','longitude']]
+np.savetxt("C:\\Users\\ASUS\\locationDF2.txt",locationDF.values,header="City\tlatitude\tlongitude" , delimiter='\t',fmt='%s')
