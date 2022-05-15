@@ -8,6 +8,6 @@ numpy
 geopy -> For detection of Latitude & Longitude for City Names
 names_dataset --> For Classification of Gender / Nationality 
 
-Detect_Gender_Nationality.py --> Returns the result in CSV Tab Delimited Format 
+Detect_Gender_Nationality.py --> Returns the result in  Tab Delimited Format text file
 
 
